@@ -1,0 +1,10 @@
+Corrigir as dependências entre os módulos.
+@armandossrecife ➜ /workspaces/atdcodeanalyzer (main) $ python3 principal.py 
+Traceback (most recent call last):
+  File "/workspaces/atdcodeanalyzer/principal.py", line 3, in <module>
+    import extracao
+  File "/workspaces/atdcodeanalyzer/extracao.py", line 2, in <module>
+    import dao
+  File "/workspaces/atdcodeanalyzer/dao.py", line 1, in <module>
+    import sqlalchemy
+ModuleNotFoundError: No module named 'sqlalchemy'
