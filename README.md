@@ -37,6 +37,8 @@ You can access [Cassandra Treemap Repository](https://giselesousar.github.io/cas
 
 You can acess [Kafka Treemap Repository](https://armandossrecife.github.io/kafka-treemap/) to get Kafka treemap visualization for each variable analysed.
 
+The Treemap and Data extraction are performed by [SysRepoAnalysis](https://github.com/Technical-Debt-Large-Scale/sysrepoanalysis). SysRepoAnalysis is an open-source, multi-user web tool that allows online analysis of git repositories by extracting historical information from source code files over time, using mining software repository techniques [4].
+
 ## Referencies
 
 [[1]](https://dl.acm.org/doi/abs/10.1145/2851613.2851963) Fontana, F.A., Pigazzini, I., Roveda, R., Tamburri, D., Zanoni, M. and Di Nitto, E., 2017, April. Arcan: A tool for architectural smells detection. In 2017 IEEE International Conference on Software Architecture Workshops (ICSAW) (pp. 282-285). IEEE.
@@ -44,3 +46,5 @@ You can acess [Kafka Treemap Repository](https://armandossrecife.github.io/kafka
 [[2]](https://ieeexplore.ieee.org/abstract/document/4812762) Garcia, J., Popescu, D., Edwards, G. and Medvidovic, N., 2009, March. Identifying architectural bad smells. In 2009 13th European Conference on Software Maintenance and Reengineering (pp. 255-258). IEEE.
 
 [3] Suryanarayana, G., Samarthyam, G. and Sharma, T., 2014. Refactoring for software design smells: managing technical debt. Morgan Kaufmann. 
+
+[[4]](https://dl.acm.org/doi/abs/10.1145/3555228.3555281) Sousa, A., Ribeiro, G., Avelino, G., Rocha, L. and Britto, R., 2022, October. SysRepoAnalysis: A tool to analyze and identify critical areas of source code repositories. In Proceedings of the XXXVI Brazilian Symposium on Software Engineering (pp. 376-381).
