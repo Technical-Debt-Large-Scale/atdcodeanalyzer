@@ -1,5 +1,5 @@
-# atdcodeanalyzer
-Initial Prototype of the ATDCodeAnalyzer Method and Tool
+# Atdcodeanalyzer
+The Prototype of the ATDCodeAnalyzer Method and Tool
 
 [Proposed Approach](https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer/blob/main/docs/diagrams/SummaryofSysRepoAnalysis.png)
 
@@ -13,21 +13,31 @@ We loaded these datasets and performed an exploratory data analysis, using vario
 
 We calculated the following metrics to aid our analysis: *cyclomatic complexity*, *file occurrence in commits*, and *accumulated modified LOCs* over time to analyze the source code's behavior related to the maintenance effort. Besides, we used the following Archictural Smells to select files that can indicate architectural issues: *cyclic dependency* and *hub-like dependency*.
 
-## Phase 1
+## Phases of the Method
+
+### Phase 1
 
 [Extracting main information about commits and modified files](https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer/blob/main/docs/diagrams/p1.png)
 
-## Phase 2
+### Phase 2
 
 [Selecting AS and calculate metrics](https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer/blob/main/docs/diagrams/p2.png)
 
-## Phase 3
+### Phase 3
 
 [Calculating quartiles and selecting critical files](https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer/blob/main/docs/diagrams/p3.png)
 
-## Phase 4
+### Phase 4
 
 [Selecting critial classes](https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer/blob/main/docs/diagrams/p4.png)
+
+## Samples of Data analyzed
+
+You can access [Cassandra Treemap Repository](https://giselesousar.github.io/cassandra-treemap/) to get Cassandra treemap visualization for each variable analysed.
+
+You can acess [Kafka Treemap Repository](https://armandossrecife.github.io/kafka-treemap/) to get Kafka treemap visualization for each variable analysed.
+
+## Referencies
 
 [[1]](https://dl.acm.org/doi/abs/10.1145/2851613.2851963) Fontana, F.A., Pigazzini, I., Roveda, R., Tamburri, D., Zanoni, M. and Di Nitto, E., 2017, April. Arcan: A tool for architectural smells detection. In 2017 IEEE International Conference on Software Architecture Workshops (ICSAW) (pp. 282-285). IEEE.
 
