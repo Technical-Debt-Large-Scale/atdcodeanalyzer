@@ -37,6 +37,10 @@ You can access [Cassandra Treemap Repository](https://giselesousar.github.io/cas
 
 You can acess [Kafka Treemap Repository](https://armandossrecife.github.io/kafka-treemap/) to get Kafka treemap visualization for each variable analysed.
 
+You can acess [ActiveMQ Treemap Repository](https://armandossrecife.github.io/kafka-treemap/) to get ActiveMQ treemap visualization for each variable analysed.
+
+You can acess [Hadoop Treemap Repository](https://armandossrecife.github.io/kafka-treemap/) to get Hadoop treemap visualization for each variable analysed.
+
 The Treemap and Data extraction are performed by [SysRepoAnalysis](https://github.com/Technical-Debt-Large-Scale/sysrepoanalysis). SysRepoAnalysis is an open-source, multi-user web tool that allows online analysis of git repositories by extracting historical information from source code files over time, using mining software repository techniques [4].
 
 ## Referencies
